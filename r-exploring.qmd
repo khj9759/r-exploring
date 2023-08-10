@@ -19,3 +19,19 @@ head(diamonds)
 tail(diamonds)
 skimr::skim(diamonds)
 ```
+
+```{r}
+ggpairs(diamonds)
+```
+
+```{r}
+ggplot(data = diamonds, aes(x = carat)) +
+  geom_histogram()
+```
+
+```{r}
+ggplot(data = diamonds, aes(x = carat, y = price)) +
+  geom_boxplot()
+  
+
+```
