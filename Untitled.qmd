@@ -1,0 +1,16 @@
+---
+title: "r-exploring"
+format: html
+editor: visual
+---
+
+```{r}
+library(tidyverse)
+library(skimr)
+library(GGally)
+```
+
+```{r}
+View(diamonds)
+names (diamonds)
+```
