@@ -13,4 +13,9 @@ library(GGally)
 ```{r}
 View(diamonds)
 names (diamonds)
+dim(diamonds)
+summary(diamonds)
+head(diamonds)
+tail(diamonds)
+skimr::skim(diamonds)
 ```
